@@ -1,0 +1,21 @@
+{
+    "editor.detectIndentation": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#00f",
+        "editor.selectionHighlightBorder": "#94767c00",
+        "editor.selectionHighlightBackground": "#ff000078",
+        "editorBracketMatch.background": "#ca9fdb5e",
+        "editorBracketMatch.border": "#ff0000",
+        "tab.activeBackground": "#ad9cd4b2",
+        "textLink.foreground": "#d6561ac4",
+        "descriptionForeground": "#ff0000",
+        "selection.background": "#b98cd693",
+        "textBlockQuote.background": "#e40d0d",
+        "textSeparator.foreground": "#86c2df",
+        "activityBar.background": "#590F31",
+        "titleBar.activeBackground": "#7D1544",
+        "titleBar.activeForeground": "#FEFCFD"
+    }
+}
