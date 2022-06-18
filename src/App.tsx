@@ -7,7 +7,7 @@
  * @LastEditTime: 2022-06-18 13:24:57
  */
 import React from 'react';
-import './App.css';
+import './App.less';
 import { Button } from 'antd';
 function App() {
   return (
