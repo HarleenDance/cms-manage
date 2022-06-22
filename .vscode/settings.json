@@ -17,5 +17,6 @@
         "activityBar.background": "#590F31",
         "titleBar.activeBackground": "#7D1544",
         "titleBar.activeForeground": "#FEFCFD"
-    }
+    },
+    "editor.tabSize": 4
 }
