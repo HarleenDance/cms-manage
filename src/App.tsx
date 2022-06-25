@@ -2,18 +2,30 @@
  * @Descripttion: 
  * @version: 18.1.2
  * @Author: Harleens
- * @Date: 2022-06-18 13:15:31
+ * @Date: 2022-06-22 22:02:57
  * @LastEditors: Harleens
- * @LastEditTime: 2022-06-18 13:24:57
+ * @LastEditTime: 2022-06-25 16:07:31
  */
 import React from 'react';
-import './App.less';
-import { Button } from 'antd';
+import { Outlet } from 'react-router-dom'
+import { Layout } from 'antd';
+import './App.css';
+
 function App() {
   return (
-    <div className="App">
-    <Button type="primary">Button</Button>
-    </div>
+   <Layout id='app'>
+      {/* <Header /> */}
+      {/* <div className='container'>
+        <Aside />
+        <div className='container_box'>
+          <Bread />
+          <div className="container_content">
+            <Outlet />
+          </div>
+        </div>
+      </div> */}
+      <footer>Respect | Copyright &copy; 2022 Author 你单排吧</footer>
+    </Layout>
   );
 }
 
