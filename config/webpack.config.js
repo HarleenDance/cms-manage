@@ -783,5 +783,18 @@ module.exports = function (webpackEnv) {
         // Turn off performance processing because we utilize
         // our own hints via the FileSizeReporter
         performance: false,
+         //开发服务器 devServer: 用来自动化（自动编译，自动打开浏览器，自动刷新浏览器等等）
+    //特点： 只会在内存中编译打包，不会有任何输出
+    //启动devServer指令为：npx webpack-dev-server 需要进行下载： npm i webpack-dev-server -D
+    // devServer: {
+    //     //选择运行目录（构建后的目录）
+    //     contentBase: resolve(__dirname,'build'),
+    //     //启动gzip压缩,，进行优化
+    //     compress: true,
+    //     //设置端口号
+    //     port:3000,
+    //     //运行之后自动打开默认浏览器
+    //     open: true
+    // }
     };
 };

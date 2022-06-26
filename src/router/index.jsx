@@ -8,7 +8,7 @@
 
 import App from '../App'
 import ListTable from '@/pages/List/ListTable.tsx'
-import List from '@/pages/List/List.tsx'
+import List from '@/pages/List/Lists.tsx'
 import Edit from '@/pages/Edit/Edit.tsx'
 import Means from '@/pages/Means/Means.tsx'
 import Login from '@/pages/Login/Login.tsx'
